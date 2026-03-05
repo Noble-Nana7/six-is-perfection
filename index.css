@@ -16,7 +16,7 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url(./240_F_633107016_xHAgkS9dVg4z4L0rmSpYMUXKXYRrGpP1.jpg);
+    background-image: url(./assets/background_pic.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;}
