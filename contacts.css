@@ -65,19 +65,17 @@
 .input{
     width: 100%;
     height: 55px;
-    background-color: yellowgreen;
+
 }
 
 .Emailpart{
     width: 100%;
     height: 15%;
-    background-color: black
 }
 
 .Welcompart{
     width: 100%;
     height: 15%;
-    background-color: wheat
 }
 
 .Messagepart{
@@ -91,4 +89,5 @@ button{
     width: 100%;
     height: 60px;
     background-color: blue;
+    color: white;
 }
