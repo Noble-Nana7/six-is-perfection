@@ -1,0 +1,14 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #203524;
+}
+
+.contact_page {
+    width: 100%;
+    height: 100%;
+}
+
+.contact_conatinerh1{
+    font-size: 25px;
+}
