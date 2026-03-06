@@ -34,6 +34,8 @@ body{
     -webkit-backdrop-filter: blur(8px); 
     border-bottom: 2px solid rgba(162, 144, 180, 0.25) ;
     position: fixed;
+    top: 0;
+
 
 }
 
@@ -171,7 +173,6 @@ a{
 
     h2{
         font-size: 60px;
-
         color: rgb(153, 71, 229);
     }
     h2 .mid{
@@ -180,7 +181,6 @@ a{
     h2 span{
         color: red;
     }
-
 
     h3{
         font-size: 30px;
@@ -229,7 +229,6 @@ a{
     align-items: center;
     cursor: pointer;
     animation: glowpulse 2s infinite ease-in-out;
-
     p{
     font-size: 18px;
     font-weight: bold;
