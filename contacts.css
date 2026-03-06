@@ -1,14 +1,100 @@
-body {
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.Contact_Section {
     width: 100%;
     height: 100vh;
-    background-color: #203524;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.contact_page {
-    width: 100%;
+.Contact_wrapper{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    gap: 20px;
+}
+
+.text_section {
+    width: 50%;
     height: 100%;
+    /* background-color: gold; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 20px;
+    gap: 20px;
 }
 
-.contact_conatinerh1{
+.text_section h1{
+    font-size: 70px;
+    color: white;
+}
+.text_section p{
     font-size: 25px;
+    color: white;
+}
+
+.social_handles{
+    width: 100%;
+    height: 30%;
+    /* background-color: purple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social_handles h4{
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.contact_form{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.input{
+    width: 100%;
+    height: 55px;
+
+}
+
+.Emailpart{
+    width: 100%;
+    height: 15%;
+}
+
+.Welcompart{
+    width: 100%;
+    height: 15%;
+}
+
+.Messagepart{
+    width: 100%;
+    height: 80px;
+    resize: none;
+
+}
+
+button{
+    width: 100%;
+    height: 60px;
+    background-color: blue;
+    color: white;
 }
