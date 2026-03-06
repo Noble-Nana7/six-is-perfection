@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+    flex-direction: column;
+}
 
 .Contact_Section {
     width: 100%;
@@ -32,9 +36,11 @@
 
 .text_section h1{
     font-size: 70px;
+    color: white;
 }
 .text_section p{
-    font-size: 30px;
+    font-size: 25px;
+    color: white;
 }
 
 .social_handles{
@@ -48,7 +54,8 @@
 }
 
 .social_handles h4{
-    font-size: 25px;
+    font-size: 20px;
+    color: white;
 }
 
 
